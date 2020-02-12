@@ -1,0 +1,67 @@
+html, body{
+	background: grey;
+	padding: 0px;
+
+	
+}
+
+#game {
+    width: 450px;
+    height: 450px;
+    background:red;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+ 
+.block {
+    width: 150px;
+    height: 150px;
+    float: left;
+    border: 1px solid white;
+    box-sizing: border-box;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.block > div{
+	margin-top: 30%;
+	font-size: 5em;
+
+}
+
+.footer{
+ 
+    margin-top:1%;
+    color: white; 
+    padding: 5% 13%;
+    display: flex;
+          
+}
+#game::after{
+    content: "Counter";
+    font-size: 2em;
+    margin-left:40%;
+}
+.winx ,.win0 ,.whowin{
+    
+    font-size: 2em;
+}
+
+.winx{
+    position: absolute;
+    top: 580px;
+    left: 10%;
+
+}
+.win0{
+    position: absolute;
+    top: 580px;
+    right: 10%;
+
+}
+.whowin{
+    position: absolute;
+    top: 580px;
+    left: 50%;
+}
